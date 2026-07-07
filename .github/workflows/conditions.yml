@@ -1,5 +1,6 @@
 name: Conditions
 on: push
+
 jobs:
   skip-or-run:
     runs-on: ubuntu-latest
