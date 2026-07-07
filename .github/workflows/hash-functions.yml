@@ -1,5 +1,6 @@
 name: Hash functions
 on: push
+
 jobs:
   hash:
     runs-on: ubuntu-latest
