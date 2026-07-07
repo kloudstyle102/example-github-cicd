@@ -1,5 +1,6 @@
 name: Naming
 on: push
+
 jobs:
   print:
     name: Super Useful Job   # ジョブ名の指定
