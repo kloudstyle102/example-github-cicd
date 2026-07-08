@@ -1,7 +1,8 @@
 name: Schedule
 on:
-  schedule:                # 定期実行イベント
-    - cron: '*/15 * * * *' # 15分ごとに起動するcron式
+  workflow_dispatch:       # 手動実行のみ（スケジュール実行は無効化）
+  # schedule:              # 定期実行イベント（GitHub Actions の消費を止めるため無効化）
+  #   - cron: '*/15 * * * *' # 15分ごとに起動するcron式
 jobs:
   run:
     runs-on: ubuntu-latest
