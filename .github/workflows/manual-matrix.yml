@@ -1,4 +1,5 @@
 name: Manual matrix
+
 on: push
 jobs:
   print:
